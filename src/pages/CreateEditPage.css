@@ -1,0 +1,64 @@
+/* CreateEditPage.css */
+
+.create-edit-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .create-edit-container h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .create-edit-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .create-edit-container input,
+  .create-edit-container select,
+  .create-edit-container button {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  .create-edit-container input:focus,
+  .create-edit-container select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .create-edit-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .create-edit-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .create-edit-container button:active {
+    background-color: #003d80;
+  }
+  
+  @media (max-width: 480px) {
+    .create-edit-container {
+      padding: 1.5rem;
+    }
+  }
+  
